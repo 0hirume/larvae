@@ -13,6 +13,10 @@ Notable changes land here. Format follows
   symbols, even though larvae names a configured definition file by its
   path, and later files win when they document the same symbol
 
+### Fixed
+
+- Roblox enum names such as `Enum.KeyCode` resolve in type annotations
+
 ## 0.7.3 - 2026-08-30
 
 ### Added
