@@ -236,6 +236,7 @@ jobs:
 
   crates:
     name: Publish to crates.io
+    if: github.repository == 'larvae-luau/larvae'
     needs: [verify, release]
     runs-on: ubuntu-latest
     steps:
